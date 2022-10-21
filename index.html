@@ -1,0 +1,1993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Screenmusings</title>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link href="Styles/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div id="top-half">
+        <nav id="nav-bar">
+            <div id="logo">screenmusings</div>
+            <div id="nav-buttons">
+                <a class="nav-button" id="selected-page" href="index.html">Movie Screencaps</a>
+                <div class="nav-button">Cinematographers</div>
+                <div class="nav-button">Directors</div>
+                <div class="nav-button">Actors</div>
+                <div class="nav-button">Color Lab</div>
+                <div class="nav-button">Random</div>
+            </div>
+            <div id="nav-buttons-image">
+                <img src="Images/dropdown-nav.png" alt="dropdown navigation button image">
+            </div>
+
+        </nav>
+
+        <div id="title-and-description">
+            <div id="page-title">MOVIE SCREENCAPS</div>
+            <div id="page-description">
+                The site features a collection of galleries showcasing a unique and inspirational selection of
+                high quality screencaptures (still frames) from masterfully shot, colorful, and visually stunning films
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom-half">
+        <div id="filter-bars">
+            <div id="searchbar">
+                <form>
+                    <input id="search-input" type="text" id="fname" name="fname" placeholder="search by title"
+                           onfocus="highlightSearchbar()" onblur="undoHighlight()"><br>
+                </form>
+                <img src="Images/search.png">
+            </div>
+
+            <div id="filter">
+                <div class="main-filter-box">
+                    <div>Filter</div>
+                    <div>
+                        <img src="Images/plus.png" alt="filter plus sign">
+                    </div>
+                </div>
+                <div id="filter-content">
+                    <div class="filter-content-section">
+                        <div class="filter-category-title">Director</div>
+                        <div class="filter-option">Adrian Lynn</div>
+                        <div class="filter-option">Akira Kurosawa</div>
+                        <div class="filter-option view-more">View more...</div>
+                    </div>
+                    <div class="filter-content-section">
+                        <div class="filter-category-title">Cinematographer</div>
+                        <div class="filter-option">Adrian Biddle</div>
+                        <div class="filter-option">Alan Hume</div>
+                        <div class="filter-option view-more">View more...</div>
+                    </div>
+                    <div class="filter-content-section">
+                        <div class="filter-category-title">Year</div>
+                        <div class="filter-option">1945</div>
+                        <div class="filter-option">1947</div>
+                        <div class="filter-option view-more">View more...</div>
+                    </div>
+                    <div class="filter-content-section">
+                        <div class="filter-category-title">Genre</div>
+                        <div class="filter-option">Action</div>
+                        <div class="filter-option">Adventure</div>
+                        <div class="filter-option view-more">View more...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sort">
+                <div class="main-filter-box sort-box">
+                    <div>Sort by</div>
+                    <div>
+                        <img src="Images/down.png" alt="sort down arrow">
+                    </div>
+
+                </div>
+                <div id="sort-content">
+                    <div class="sort-option">Movie Name</div>
+                    <div class="sort-option">Director Name</div>
+                    <div class="sort-option">Year</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="movies">
+            <div class="movies-header">
+                <div class="movie-attribute movie-name">Name</div>
+                <div class="movie-attribute movie-year">Year</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Format</div>
+            </div>
+
+            <div class="movie">
+                <div class="movie-attribute movie-name">1917</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Sam Mendes</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">2001: A Space Odyssey</div>
+                <div class="movie-attribute movie-year">1968</div>
+                <div class="movie-attribute movie-director">Stanley Kubrick</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">2001: A Space Odyssey</div>
+                <div class="movie-attribute movie-year">1968</div>
+                <div class="movie-attribute movie-director">Stanley Kubrick</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">2046</div>
+                <div class="movie-attribute movie-year">2004</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">5 Centimeters per Second</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Makoto Shinkai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">9 1/2 Weeks</div>
+                <div class="movie-attribute movie-year">1986</div>
+                <div class="movie-attribute movie-director">Adrian Lyne</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">A.I. Artificial Intelligence</div>
+                <div class="movie-attribute movie-year">2001</div>
+                <div class="movie-attribute movie-director">Steven Spielberg</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Across the Universe</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Julie Taymor</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Ad Astra</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">James Gray</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Adventures of Priscilla, Queen of the Desert</div>
+                <div class="movie-attribute movie-year">1994</div>
+                <div class="movie-attribute movie-director">Stephan Elliot</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Almost Famous</div>
+                <div class="movie-attribute movie-year">2000</div>
+                <div class="movie-attribute movie-director">Cameron Crowe</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Altered States</div>
+                <div class="movie-attribute movie-year">1980</div>
+                <div class="movie-attribute movie-director">Ken Russell</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Amélie</div>
+                <div class="movie-attribute movie-year">2001</div>
+                <div class="movie-attribute movie-director">Jean-Pierre Jeunet</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">American Beauty</div>
+                <div class="movie-attribute movie-year">1999</div>
+                <div class="movie-attribute movie-director">Sam Mendes</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Annihilation</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Alex Garland</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Apocalypse Now</div>
+                <div class="movie-attribute movie-year">1979</div>
+                <div class="movie-attribute movie-director">Francis Ford Coppola</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Ashes of Time</div>
+                <div class="movie-attribute movie-year">1994</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Atomic Blonde</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">David Leitch</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Atonement</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Joe Wright</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Avatar</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">James Cameron</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Æon Flux</div>
+                <div class="movie-attribute movie-year">2005</div>
+                <div class="movie-attribute movie-director">Karyn Kusama</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Badlands</div>
+                <div class="movie-attribute movie-year">1973</div>
+                <div class="movie-attribute movie-director">Terrence Malick</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Baraka</div>
+                <div class="movie-attribute movie-year">1992</div>
+                <div class="movie-attribute movie-director">Ron Fricke</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Barbarella</div>
+                <div class="movie-attribute movie-year">1968</div>
+                <div class="movie-attribute movie-director">Roger Vadim</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Basic Instinct</div>
+                <div class="movie-attribute movie-year">1992</div>
+                <div class="movie-attribute movie-director">Paul Verhoeven</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Basic Instinct 2</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Michael Caton-Jones</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Batman</div>
+                <div class="movie-attribute movie-year">1989</div>
+                <div class="movie-attribute movie-director">Tim Burton</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Batman Begins</div>
+                <div class="movie-attribute movie-year">2005</div>
+                <div class="movie-attribute movie-director">Christopher Nolan</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Beyond the Valley of the Dolls</div>
+                <div class="movie-attribute movie-year">1970</div>
+                <div class="movie-attribute movie-director">Russ Meyer</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Big Fish</div>
+                <div class="movie-attribute movie-year">2003</div>
+                <div class="movie-attribute movie-director">Tim Burton</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Birdman or (The Unexpected Virtue of Ignorance)</div>
+                <div class="movie-attribute movie-year">2014</div>
+                <div class="movie-attribute movie-director">Alejandro González Iñárritu</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Black Dahlia</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Brian De Palma</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Black Narcissus</div>
+                <div class="movie-attribute movie-year">1947</div>
+                <div class="movie-attribute movie-director">Emeric Pressburger, Michael Powell</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Black Swan</div>
+                <div class="movie-attribute movie-year">2010</div>
+                <div class="movie-attribute movie-director">Darren Aronofsky</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Blade Runner</div>
+                <div class="movie-attribute movie-year">1982</div>
+                <div class="movie-attribute movie-director">Ridley Scott</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Blade Runner 2049</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Denis Villeneuve</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Blade Runner 2049</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Denis Villeneuve</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Blue Lagoon</div>
+                <div class="movie-attribute movie-year">1980</div>
+                <div class="movie-attribute movie-director">Randal Kleiser</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Blueberry</div>
+                <div class="movie-attribute movie-year">2004</div>
+                <div class="movie-attribute movie-director">Jan Kounen</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Bobby</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Emilio Estevez</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Bohemian Rhapsody</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Bryan Singer</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Bonnie and Clyde</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">Arthur Penn</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Boy Friend</div>
+                <div class="movie-attribute movie-year">1971</div>
+                <div class="movie-attribute movie-director">Ken Russell</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Branded to Kill</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">Seijun Suzuki</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Brokeback Mountain</div>
+                <div class="movie-attribute movie-year">2005</div>
+                <div class="movie-attribute movie-director">Ang Lee</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Byzantium</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Neil Jordan</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Carol</div>
+                <div class="movie-attribute movie-year">2015</div>
+                <div class="movie-attribute movie-director">Todd Haynes</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Casino</div>
+                <div class="movie-attribute movie-year">1995</div>
+                <div class="movie-attribute movie-director">Martin Scorsese</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Casino Royale</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">John Huston, Ken Hughes, Joseph McGrath, Robert Parrish, Richard Talmadge</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Casino Royale</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Martin Campbell</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Cell</div>
+                <div class="movie-attribute movie-year">2000</div>
+                <div class="movie-attribute movie-director">Tarsem Singh</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Center Stage</div>
+                <div class="movie-attribute movie-year">1991</div>
+                <div class="movie-attribute movie-director">Stanley Kwan</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Chinatown</div>
+                <div class="movie-attribute movie-year">1974</div>
+                <div class="movie-attribute movie-director">Roman Polanski</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">A Christmas Story</div>
+                <div class="movie-attribute movie-year">1983</div>
+                <div class="movie-attribute movie-director">Bob Clark</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Chronos</div>
+                <div class="movie-attribute movie-year">1985</div>
+                <div class="movie-attribute movie-director">Ron Fricke</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Chungking Express</div>
+                <div class="movie-attribute movie-year">1994</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">City of God</div>
+                <div class="movie-attribute movie-year">2002</div>
+                <div class="movie-attribute movie-director">Fernando Meirelles, Kátia Lund</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Climax</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Gaspar Noé</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Close Encounters of the Third Kind</div>
+                <div class="movie-attribute movie-year">1977</div>
+                <div class="movie-attribute movie-director">Steven Spielberg</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Color of Pomegranates</div>
+                <div class="movie-attribute movie-year">1969</div>
+                <div class="movie-attribute movie-director">Sergei Parajanov</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Contempt</div>
+                <div class="movie-attribute movie-year">1963</div>
+                <div class="movie-attribute movie-director">Jean-Luc Godard</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Crimes of Passion</div>
+                <div class="movie-attribute movie-year">1984</div>
+                <div class="movie-attribute movie-director">Ken Russell</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Curse of the Golden Flower</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Yimou Zhang</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Da 5 Bloods</div>
+                <div class="movie-attribute movie-year">2020</div>
+                <div class="movie-attribute movie-director">Spike Lee</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Daisies</div>
+                <div class="movie-attribute movie-year">1966</div>
+                <div class="movie-attribute movie-director">Věra Chytilová</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Darjeeling Limited</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Wes Anderson</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Dark Knight</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">Christopher Nolan</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Day of the Locust</div>
+                <div class="movie-attribute movie-year">1975</div>
+                <div class="movie-attribute movie-director">John Schlesinger</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Days of Being Wild</div>
+                <div class="movie-attribute movie-year">1990</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Days of Heaven</div>
+                <div class="movie-attribute movie-year">1978</div>
+                <div class="movie-attribute movie-director">Terrence Malick</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Devil Wears Prada</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">David Frankel</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Diamonds Are Forever</div>
+                <div class="movie-attribute movie-year">1971</div>
+                <div class="movie-attribute movie-director"> Guy Hamilton</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Die Another Day</div>
+                <div class="movie-attribute movie-year">2002</div>
+                <div class="movie-attribute movie-director">Haskell Wexler</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Domino</div>
+                <div class="movie-attribute movie-year">2005</div>
+                <div class="movie-attribute movie-director">Tony Scott</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Donkey Skin</div>
+                <div class="movie-attribute movie-year">1970</div>
+                <div class="movie-attribute movie-director">Jacques Demy</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Doors</div>
+                <div class="movie-attribute movie-year">1991</div>
+                <div class="movie-attribute movie-director">Oliver Stone</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Dorian Gray</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">Oliver Parker</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Double Life of Véronique</div>
+                <div class="movie-attribute movie-year">1991</div>
+                <div class="movie-attribute movie-director">Krzysztof Kieślowski</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Dr. No</div>
+                <div class="movie-attribute movie-year">1962</div>
+                <div class="movie-attribute movie-director">Terence Young</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Dracula</div>
+                <div class="movie-attribute movie-year">1992</div>
+                <div class="movie-attribute movie-director">Francis Ford Coppola</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Dreamers</div>
+                <div class="movie-attribute movie-year">2003</div>
+                <div class="movie-attribute movie-director">Bernardo Bertolucci</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Dreams</div>
+                <div class="movie-attribute movie-year">1990</div>
+                <div class="movie-attribute movie-director">Akira Kurosawa, Ishirô Honda</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Dune</div>
+                <div class="movie-attribute movie-year">2021</div>
+                <div class="movie-attribute movie-director">Denis Villeneuve</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Easy Rider</div>
+                <div class="movie-attribute movie-year">1969</div>
+                <div class="movie-attribute movie-director">Dennis Hopper</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Edge of Love</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">John Maybury</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">El Norte</div>
+                <div class="movie-attribute movie-year">1983</div>
+                <div class="movie-attribute movie-director">Gregory Nava</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Emma.</div>
+                <div class="movie-attribute movie-year">2020</div>
+                <div class="movie-attribute movie-director">Autumn de Wilde</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Enter the Void</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">Gaspar Noé</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Eternal Sunshine of the Spotless Mind</div>
+                <div class="movie-attribute movie-year">2004</div>
+                <div class="movie-attribute movie-director">Michel Gondry</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Ex Machina</div>
+                <div class="movie-attribute movie-year">2014</div>
+                <div class="movie-attribute movie-director">Alex Garland</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Eyes of Laura Mars</div>
+                <div class="movie-attribute movie-year">1978</div>
+                <div class="movie-attribute movie-director">Irvin Kershner</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Eyes Wide Shut</div>
+                <div class="movie-attribute movie-year">1999</div>
+                <div class="movie-attribute movie-director">Stanley Kubrick</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Fall</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Tarsem Singh</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Fallen Angels</div>
+                <div class="movie-attribute movie-year">1995</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Fantastic Planet</div>
+                <div class="movie-attribute movie-year">1973</div>
+                <div class="movie-attribute movie-director">René Laloux</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Farewell My Concubine</div>
+                <div class="movie-attribute movie-year">1993</div>
+                <div class="movie-attribute movie-director">Chen Kaige</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Favourite</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Yorgos Lanthimos</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Fear and Loathing in Las Vegas</div>
+                <div class="movie-attribute movie-year">1998</div>
+                <div class="movie-attribute movie-director">Terry Gilliam</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Firecracker</div>
+                <div class="movie-attribute movie-year">2005</div>
+                <div class="movie-attribute movie-director">Steve Balderson</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Flawless</div>
+                <div class="movie-attribute movie-year">1999</div>
+                <div class="movie-attribute movie-director">Joel Schumacher</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Flowers of War</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">Yimou Zhang</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">For Your Eyes Only</div>
+                <div class="movie-attribute movie-year">1981</div>
+                <div class="movie-attribute movie-director">John Glen</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Forbidden Planet</div>
+                <div class="movie-attribute movie-year">1956</div>
+                <div class="movie-attribute movie-director">Fred M. Wilcox</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Forrest Gump</div>
+                <div class="movie-attribute movie-year">1994</div>
+                <div class="movie-attribute movie-director">Robert Zemeckis</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Fountain</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Darren Aronofsky</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Frida</div>
+                <div class="movie-attribute movie-year">2002</div>
+                <div class="movie-attribute movie-director">Julie Taymor</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">From Russia with Love</div>
+                <div class="movie-attribute movie-year">1963</div>
+                <div class="movie-attribute movie-director">Terence Young</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Gangs of New York</div>
+                <div class="movie-attribute movie-year">2002</div>
+                <div class="movie-attribute movie-director">Martin Scorsese</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Garden of Words</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Makoto Shinkai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Gate of Hell</div>
+                <div class="movie-attribute movie-year">1953</div>
+                <div class="movie-attribute movie-director">Teinosuke Kinugasa</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Gemini</div>
+                <div class="movie-attribute movie-year">1999</div>
+                <div class="movie-attribute movie-director">Shinya Tsukamoto</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Girl on a Motorcycle</div>
+                <div class="movie-attribute movie-year">1968</div>
+                <div class="movie-attribute movie-director">Jack Cardiff</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">A Girl Thing</div>
+                <div class="movie-attribute movie-year">2001</div>
+                <div class="movie-attribute movie-director">Lee Rose</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Girl with the Dragon Tattoo</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">David Fincher</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Godfather</div>
+                <div class="movie-attribute movie-year">1972</div>
+                <div class="movie-attribute movie-director">Francis Ford Coppola</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">GoldenEye</div>
+                <div class="movie-attribute movie-year">1995</div>
+                <div class="movie-attribute movie-director">Martin Campbell</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Goldfinger</div>
+                <div class="movie-attribute movie-year">1964</div>
+                <div class="movie-attribute movie-director">Guy Hamilton</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Good Shepherd</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Robert De Niro</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Grand Budapest Hotel</div>
+                <div class="movie-attribute movie-year">2014</div>
+                <div class="movie-attribute movie-director">Wes Anderson</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Grandmaster</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Gravity</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Alfonso Cuarón</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Green Book</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Peter Farrelly</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Handmaiden</div>
+                <div class="movie-attribute movie-year">2016</div>
+                <div class="movie-attribute movie-director">Park Chan-wook</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Hannibal</div>
+                <div class="movie-attribute movie-year">2001</div>
+                <div class="movie-attribute movie-director">Ridley Scott</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Happy Together</div>
+                <div class="movie-attribute movie-year">1997</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Harakiri</div>
+                <div class="movie-attribute movie-year">1962</div>
+                <div class="movie-attribute movie-director">Masaki Kobayashi</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Head</div>
+                <div class="movie-attribute movie-year">1968</div>
+                <div class="movie-attribute movie-director">Bob Rafelson</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Helter Skelter</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Mika Ninagawa</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Her</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Spike Jonze</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Hero</div>
+                <div class="movie-attribute movie-year">2002</div>
+                <div class="movie-attribute movie-director">Zhang Yimou</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Herostratus</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">Don Levy</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Hours</div>
+                <div class="movie-attribute movie-year">2002</div>
+                <div class="movie-attribute movie-director">Stephen Daldry</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">House of Flying Daggers</div>
+                <div class="movie-attribute movie-year">2004</div>
+                <div class="movie-attribute movie-director">Yimou Zhang</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">I Am Dragon</div>
+                <div class="movie-attribute movie-year">2015</div>
+                <div class="movie-attribute movie-director">Indar Dzhendubaev</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">I, Tonya</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Craig Gillespie</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">I'm a Cyborg, but That's OK</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Park Chan-wook</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Imaginarium of Doctor Parnassus</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">Terry Gilliam</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Immortals</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">Tarsem Singh</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">In the Mood for Love</div>
+                <div class="movie-attribute movie-year">2000</div>
+                <div class="movie-attribute movie-director">Wong Kar-Wai</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Indecent Proposal</div>
+                <div class="movie-attribute movie-year">1993</div>
+                <div class="movie-attribute movie-director">Adrian Lyne</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Inferno</div>
+                <div class="movie-attribute movie-year">1980</div>
+                <div class="movie-attribute movie-director">Dario Argento</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Interstellar</div>
+                <div class="movie-attribute movie-year">2014</div>
+                <div class="movie-attribute movie-director">Christopher Nolan</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Ivan's Childhood</div>
+                <div class="movie-attribute movie-year">1962</div>
+                <div class="movie-attribute movie-director">Andrei Tarkovsky</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Jai Bhim</div>
+                <div class="movie-attribute movie-year">2021</div>
+                <div class="movie-attribute movie-director">T. J. Gnanavel</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Jojo Rabbit</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Taika Waititi</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Joker</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Todd Phillips</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Kagemusha</div>
+                <div class="movie-attribute movie-year">1980</div>
+                <div class="movie-attribute movie-director">Akira Kurosawa</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Kamikaze Girls</div>
+                <div class="movie-attribute movie-year">2004</div>
+                <div class="movie-attribute movie-director">Tetsuya Nakashima</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Kwaidan</div>
+                <div class="movie-attribute movie-year">1964</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">L.A. Confidential</div>
+                <div class="movie-attribute movie-year">1997</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">La La Land</div>
+                <div class="movie-attribute movie-year">2016</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Last Night in Soho</div>
+                <div class="movie-attribute movie-year">2021</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Lawnmower Man</div>
+                <div class="movie-attribute movie-year">1992</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Led Zeppelin: The Song Remains the Same</div>
+                <div class="movie-attribute movie-year">1976</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Licence to Kill</div>
+                <div class="movie-attribute movie-year">1989</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Life of Pi</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Lighthouse</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Liquid Sky</div>
+                <div class="movie-attribute movie-year">1982</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Live and Let Die</div>
+                <div class="movie-attribute movie-year">1973</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Living Daylights</div>
+                <div class="movie-attribute movie-year">1987</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Logan's Run</div>
+                <div class="movie-attribute movie-year">1976</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Lolita</div>
+                <div class="movie-attribute movie-year">1997</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Long Weekend</div>
+                <div class="movie-attribute movie-year">1978</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Lord of the Rings: The Return of the King</div>
+                <div class="movie-attribute movie-year">2003</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Lost River</div>
+                <div class="movie-attribute movie-year">2014</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Love</div>
+                <div class="movie-attribute movie-year">2015</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Malena</div>
+                <div class="movie-attribute movie-year">2000</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Man with the Golden Gun</div>
+                <div class="movie-attribute movie-year">1974</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Mandy</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Marie Antoinette</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Martian</div>
+                <div class="movie-attribute movie-year">2015</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Matrix</div>
+                <div class="movie-attribute movie-year">1999</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Maurice</div>
+                <div class="movie-attribute movie-year">1987</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Maverick</div>
+                <div class="movie-attribute movie-year">1994</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Melancholia</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Memoirs of a Geisha</div>
+                <div class="movie-attribute movie-year">2005</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Memories of Matsuko</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Midnight Cowboy</div>
+                <div class="movie-attribute movie-year">1969</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Midnight Express</div>
+                <div class="movie-attribute movie-year">1978</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Midnight Sky</div>
+                <div class="movie-attribute movie-year">2020</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Midsommar</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Milk</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Mirror</div>
+                <div class="movie-attribute movie-year">1975</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Mishima: A Life in Four Chapters</div>
+                <div class="movie-attribute movie-year">1985</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Moonlight</div>
+                <div class="movie-attribute movie-year">2016</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Moonraker</div>
+                <div class="movie-attribute movie-year">1979</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Moonrise Kingdom</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Mulan</div>
+                <div class="movie-attribute movie-year">2020</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Mulholland Falls</div>
+                <div class="movie-attribute movie-year">1996</div>
+                <div class="movie-attribute movie-director">Haskell Wexler</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">My Blueberry Nights</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Nausicaä of the Valley of the Wind</div>
+                <div class="movie-attribute movie-year">1984</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Neon Demon</div>
+                <div class="movie-attribute movie-year">2016</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Network</div>
+                <div class="movie-attribute movie-year">1976</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">No Time to Die</div>
+                <div class="movie-attribute movie-year">2021</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Nostalgia</div>
+                <div class="movie-attribute movie-year">1983</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">November</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Oblivion</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Octopussy</div>
+                <div class="movie-attribute movie-year">1983</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">An Officer and a Gentleman</div>
+                <div class="movie-attribute movie-year">1982</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Oldboy</div>
+                <div class="movie-attribute movie-year">2003</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">On Her Majesty's Secret Service</div>
+                <div class="movie-attribute movie-year">1969</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Once Upon a Time in America</div>
+                <div class="movie-attribute movie-year">1984</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Once Upon a Time… in Hollywood</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Only God Forgives</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Only Lovers Left Alive</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Paprika</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Parasite</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Paris, Texas</div>
+                <div class="movie-attribute movie-year">1984</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The People vs. Larry Flynt</div>
+                <div class="movie-attribute movie-year">1996</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Phantom of the Opera</div>
+                <div class="movie-attribute movie-year">2004</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Picnic at Hanging Rock</div>
+                <div class="movie-attribute movie-year">1975</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Pink Floyd: The Wall</div>
+                <div class="movie-attribute movie-year">1982</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Pirates of the Caribbean: At World's End</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Pirates of the Caribbean: Dead Man's Chest</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Pirates of the Caribbean: The Curse of the Black Pearl</div>
+                <div class="movie-attribute movie-year">2003</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Portrait of a Lady on Fire</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Prometheus</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Promising Young Woman</div>
+                <div class="movie-attribute movie-year">2020</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Pulp Fiction</div>
+                <div class="movie-attribute movie-year">1994</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Quantum of Solace</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Rain Man</div>
+                <div class="movie-attribute movie-year">1988</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Raise the Red Lantern</div>
+                <div class="movie-attribute movie-year">1991</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Rashomon</div>
+                <div class="movie-attribute movie-year">1950</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Renoir</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Revenant</div>
+                <div class="movie-attribute movie-year">2015</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Revenge</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Rocketman</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Rocketman</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Roma</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Romeo + Juliet</div>
+                <div class="movie-attribute movie-year">1996</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Rose</div>
+                <div class="movie-attribute movie-year">1979</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Royal Tenenbaums</div>
+                <div class="movie-attribute movie-year">2001</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Ruined Heart</div>
+                <div class="movie-attribute movie-year">2014</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Sacrifice</div>
+                <div class="movie-attribute movie-year">1986</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sakuran</div>
+                <div class="movie-attribute movie-year">2006</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Samsara</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Saturday Night Fever</div>
+                <div class="movie-attribute movie-year">1977</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sex and Lucia</div>
+                <div class="movie-attribute movie-year">2001</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sex and the City</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Shape of Water</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Silence of the Lambs</div>
+                <div class="movie-attribute movie-year">1991</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sin City: A Dame to Kill For</div>
+                <div class="movie-attribute movie-year">2014</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">A Single Man</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sirens</div>
+                <div class="movie-attribute movie-year">1993</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Skyfall</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Slumdog Millionaire</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Snowman</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Solaris</div>
+                <div class="movie-attribute movie-year">1972</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Spartacus</div>
+                <div class="movie-attribute movie-year">1960</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Spectre</div>
+                <div class="movie-attribute movie-year">2015</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Spectre</div>
+                <div class="movie-attribute movie-year">2015</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Spellbound</div>
+                <div class="movie-attribute movie-year">1945</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Spider-Man: Into the Spider-Verse</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Spring Breakers</div>
+                <div class="movie-attribute movie-year">2012</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Spring, Summer, Fall, Winter... and Spring</div>
+                <div class="movie-attribute movie-year">2003</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Spy Who Loved Me</div>
+                <div class="movie-attribute movie-year">1977</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Stalker</div>
+                <div class="movie-attribute movie-year">1979</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">A Star Is Born</div>
+                <div class="movie-attribute movie-year">2018</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Star Trek</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Star Trek Into Darkness</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Street of Shame</div>
+                <div class="movie-attribute movie-year">1956</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sunday Bloody Sunday</div>
+                <div class="movie-attribute movie-year">1971</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sunshine</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Suspiria</div>
+                <div class="movie-attribute movie-year">1977</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Sweeney Todd: The Demon Barber of Fleet Street</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">T2 Trainspotting</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Taking Woodstock</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Taxi Driver</div>
+                <div class="movie-attribute movie-year">1976</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Tenet</div>
+                <div class="movie-attribute movie-year">2020</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">There's Only One Sun</div>
+                <div class="movie-attribute movie-year">2007</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Thin Red Line</div>
+                <div class="movie-attribute movie-year">1998</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Thor</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Three Billboards Outside Ebbing, Missouri</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Throw Away Your Books, Rally in the Streets</div>
+                <div class="movie-attribute movie-year">1971</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Thunderball</div>
+                <div class="movie-attribute movie-year">1965</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Titanic</div>
+                <div class="movie-attribute movie-year">1997</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">To Sir, with Love</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Tokyo Drifter</div>
+                <div class="movie-attribute movie-year">1966</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Tommy</div>
+                <div class="movie-attribute movie-year">1975</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Tomorrow Never Dies</div>
+                <div class="movie-attribute movie-year">1997</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Trance</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Tree of Life</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Tree of Life</div>
+                <div class="movie-attribute movie-year">2011</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Trip</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Ugetsu</div>
+                <div class="movie-attribute movie-year">1953</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Umbrellas of Cherbourg</div>
+                <div class="movie-attribute movie-year">1964</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Untouchables</div>
+                <div class="movie-attribute movie-year">1987</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Up</div>
+                <div class="movie-attribute movie-year">2009</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Valley of the Dolls</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Velvet Goldmine</div>
+                <div class="movie-attribute movie-year">1998</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Vertigo</div>
+                <div class="movie-attribute movie-year">1958</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">A Very Long Engagement</div>
+                <div class="movie-attribute movie-year">2004</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">A View to a Kill</div>
+                <div class="movie-attribute movie-year">1985</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Virgin Suicides</div>
+                <div class="movie-attribute movie-year">1999</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Walkabout</div>
+                <div class="movie-attribute movie-year">1971</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">WALL-E</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Weathering with You</div>
+                <div class="movie-attribute movie-year">2019</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">What Dreams May Come</div>
+                <div class="movie-attribute movie-year">1998</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">What Ever Happened to Baby Jane?</div>
+                <div class="movie-attribute movie-year">1962</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Who Framed Roger Rabbit</div>
+                <div class="movie-attribute movie-year">1988</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Wicker Man</div>
+                <div class="movie-attribute movie-year">1973</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">DVD</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Wolf of Wall Street</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Woman in the Dunes</div>
+                <div class="movie-attribute movie-year">1964</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Wonder Wheel</div>
+                <div class="movie-attribute movie-year">2017</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Trailer</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Wonderwall</div>
+                <div class="movie-attribute movie-year">1968</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The World Is Not Enough</div>
+                <div class="movie-attribute movie-year">1999</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Wrestler</div>
+                <div class="movie-attribute movie-year">2008</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Yellow Submarine</div>
+                <div class="movie-attribute movie-year">1968</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">You Only Live Twice</div>
+                <div class="movie-attribute movie-year">1967</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">Your Name.</div>
+                <div class="movie-attribute movie-year">2016</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+            <div class="movie">
+                <div class="movie-attribute movie-name">The Zero Theorem</div>
+                <div class="movie-attribute movie-year">2013</div>
+                <div class="movie-attribute movie-director">Director</div>
+                <div class="movie-attribute movie-format">Blu-ray</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+        function highlightSearchbar() {
+            document.getElementById('searchbar').style.backgroundColor = "#F1C8EF";
+            document.getElementById('search-input').style.backgroundColor = "#F1C8EF";
+        }
+        function undoHighlight() {
+            document.getElementById('searchbar').style.backgroundColor = "#D1D1D1";
+            document.getElementById('search-input').style.backgroundColor = "#D1D1D1";
+        }
+    </script>
+
+</body>
+</html>
